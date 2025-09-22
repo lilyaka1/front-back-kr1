@@ -1,47 +1,69 @@
 <!DOCTYPE html>
-<html lamg = "ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Семестровая работа</title>
-    </head>
-    <body>
-        <div id="header">Хэдер</div>
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="pages/news.html">Новости</a></li>
-                <li><a href="pages/goods.html">Товары</a></li>
-                <li><a href="pages/contacts.html">Контакты</a></li>
-            </ul>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семестровая работа</title>
+    <link rel="stylesheet" href="style/styles.css">
+  </head>
+  <body>
+    <div class="page">
+
+      <div class="header">Хэдер</div>
+
+      <div class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="profile">
+          <h1 class="profile-title">Информация об авторе</h1>
+          <img class="profile-photo" src="images/photo.jpg" alt="Фото автора" width="200" height="250">
+          <h2 class="profile-name">Сало Вячеслав Васильевич</h2>
+          <p class="profile-group">ЭФБО-15-24</p>
         </div>
-        <div id="content">
-            <p>Информация об авторе</p>
-            <img src="images/photo.jpg" alt="Фото автора" width="200" height="250">
-            <p>Сало Вячеслав Васильевич</p>
-            <p>ЭФБО-15-24</p>
-            <p>Обо мне: Я родился и слушал Кани Веста. Кани Вест рано ударил в голову. В четыре активно советовал убегать от меня.
-Потом колледж, поздняя регистрация, выпуск, клей. Так я становился все шизовей и сильней. Отмывал деньги с битов и отнимал статуэтки грэмми.</p>
-            <div>Навык 1</div>
-            <div>Навык 2</div>
-            <div>Навык 3</div>
-            <div>Навык 4</div>
-            <div>
-                Мой опыт работы:
-                <div>
-                    Опыт 1<br>
-                    Работал дизайнером: придумывал макеты и создавал концепты.
-                </div>
-                <div>
-                    Опыт 2<br>
-                    Работал разработчиком: писал код и исправлял ошибки.
-                </div>
-                <div>
-                    Опыт 3<br>
-                    РРаботал музыкантом: писал биты и выступал на сцене.
-                </div>
-            </div>
+
+        <div class="about">
+          <p>
+            Обо мне: Я родился и слушал Кани Веста. Кани Вест рано ударил в голову. 
+            В четыре активно советовал убегать от меня. Потом колледж, поздняя регистрация, выпуск, клей. 
+            Так я становился всё шизовей и сильней. Отмывал деньги с битов и отнимал статуэтки «Грэмми».
+          </p>
         </div>
-        <div id="footer">Футер</div>    
-    </body>
+
+        <div class="skills">
+          <div class="skill">Навык 1</div>
+          <div class="skill">Навык 2</div>
+          <div class="skill">Навык 3</div>
+          <div class="skill">Навык 4</div>
+        </div>
+
+        <div class="experience">
+          <h2 class="section-title">Мой опыт работы</h2>
+
+          <div class="exp-item">
+            <h3 class="exp-title">Опыт 1</h3>
+            <p class="exp-desc">Работал дизайнером: придумывал макеты и создавал концепты.</p>
+          </div>
+
+          <div class="exp-item">
+            <h3 class="exp-title">Опыт 2</h3>
+            <p class="exp-desc">Работал разработчиком: писал код и исправлял ошибки.</p>
+          </div>
+
+          <div class="exp-item">
+            <h3 class="exp-title">Опыт 3</h3>
+            <p class="exp-desc">Работал музыкантом: писал биты и выступал на сцене.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">Футер</div>
+    </div>
+  </body>
 </html>
