@@ -191,63 +191,101 @@ body {
 .news-section {
   padding: 20px;
 }
+
+.news-title-page {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
 .news-item {
   border: 1px solid #ccc;
+  border-radius: 6px;
   padding: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  background: #f9f9f9;
 }
+
 .news-title {
   font-size: 20px;
-  margin: 0 0 5px;
+  margin: 0 0 10px;
 }
+
 .news-meta {
   font-size: 14px;
   color: #666;
   margin-bottom: 10px;
 }
+
 .news-text {
   font-size: 16px;
+  line-height: 1.4;
 }
 
 /* --- goods.css --- */
 .goods-section {
   padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
 }
+
+.goods-title-page {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
 .goods-item {
+  display: inline-block;
+  width: 220px;
   border: 1px solid #ccc;
+  border-radius: 6px;
   padding: 10px;
+  margin: 10px;
   text-align: center;
+  background: #f9f9f9;
 }
+
 .goods-img {
   max-width: 100%;
   height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
+
 .goods-title {
   font-size: 18px;
-  margin: 10px 0 5px;
+  margin: 8px 0;
 }
+
 .goods-price {
   font-weight: bold;
-  color: green;
+  color: #2a7d2a;
 }
 
 /* --- contacts.css --- */
 .contacts-section {
   padding: 20px;
 }
-.contacts-item {
-  margin-bottom: 15px;
+
+.contacts-title-page {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
+
+.contacts-item {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #f9f9f9;
+}
+
 .contacts-title {
   font-size: 18px;
-  margin-bottom: 5px;
+  margin: 0 0 8px;
 }
+
 .contacts-text {
   font-size: 16px;
 }
+
 .contacts-btn {
   display: inline-block;
   padding: 8px 15px;
@@ -256,6 +294,7 @@ body {
   text-decoration: none;
   border-radius: 4px;
 }
+
 .contacts-btn:hover {
   background: #0056b3;
 }
