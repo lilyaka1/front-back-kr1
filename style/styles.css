@@ -186,3 +186,76 @@ body {
     padding: 30px; /* Внутренние отступы */
     margin-top: 50px; /* Отступ сверху */
 }
+
+/* --- news.css --- */
+.news-section {
+  padding: 20px;
+}
+.news-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.news-title {
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+.news-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.news-text {
+  font-size: 16px;
+}
+
+/* --- goods.css --- */
+.goods-section {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+.goods-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.goods-img {
+  max-width: 100%;
+  height: auto;
+}
+.goods-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+.goods-price {
+  font-weight: bold;
+  color: green;
+}
+
+/* --- contacts.css --- */
+.contacts-section {
+  padding: 20px;
+}
+.contacts-item {
+  margin-bottom: 15px;
+}
+.contacts-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.contacts-text {
+  font-size: 16px;
+}
+.contacts-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.contacts-btn:hover {
+  background: #0056b3;
+}
